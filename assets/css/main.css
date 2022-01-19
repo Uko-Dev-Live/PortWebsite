@@ -157,9 +157,9 @@ input, select, textarea {
 		color: inherit;
 	}
 
-		a:hover {
+		 a:hover {
 			border-bottom-color: transparent;
-		}
+		} 
 
 	strong, b {
 		color: #ffffff;
@@ -207,7 +207,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		/* letter-spacing: 0.5rem; */
 	}
 
 	h3 {
@@ -740,7 +740,6 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
-			padding-right: 0.5em; /* uko */
 		}
 
 		ul.alt {
@@ -1362,7 +1361,7 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 1.25rem 0 0.7rem; /* 0 1.25 0 1.45*/
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
